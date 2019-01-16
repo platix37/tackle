@@ -99,10 +99,3 @@ button:hover{
   height: 200px;
   margin-top: 40px;
 }
-
-@media (min-width: 1400px) {
-
-	.heightFull{
-		height: 90.7vh;
-	  }
-}
