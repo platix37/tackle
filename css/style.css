@@ -1,0 +1,250 @@
+/* ------------------------------------------------------------------------UTILITIES------------------------------------------------------------------------------- */
+.remove_padding_left{
+	padding-left: 0px;
+}
+
+.remove_padding_right{
+	padding-right: 0px;
+}
+
+.remove_padding_top{
+	padding-top: 0px;
+}
+
+.remove_margin_left{
+	margin-left: 0px;
+}
+
+.remove_margin_right{
+	margin-right: 0px;
+}
+
+.add_margin_1{
+	margin: 1vh;
+}
+
+
+.uclWall{
+	background-image: url(../images/secondPage2.jpg);
+	background-size: cover;
+  	background-repeat: no-repeat;
+}
+
+.heightFull{
+	height: 92vh;
+  }
+
+/* -----------------------------------------------------------------------------NAV---------------------------------------------------------------------------------- */
+
+.logo-img{
+	background-image: url(../images/tackle-logo.png);
+	background-size: contain;
+}
+
+.bg-darkviolet{
+	background-color: #762DCF;
+}
+
+/* --------------------------------------------------------------------------CAROUSEL----------------------------------------------------------------------------- */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: none;
+}
+
+.caption_opacity{
+	opacity: 0.55;
+}
+
+/*----------------------------------- Media query override -------------------------------- */
+@media (min-width: 320px) and (max-width: 767.98px) {
+
+	.awardContent{
+		font-size: 10px;
+		max-height: 10vh;
+	}
+
+	.goalMonth{
+		font-size: 15px;
+	}
+}
+
+@media (min-width: 700px) and (max-width: 1400px) {
+
+	.awardContent{
+		font-size: 10px;
+		max-height: 10vh;
+	}
+}
+
+@media (min-width: 1400px) {
+
+	.mainText{
+		padding-left: 70vw;
+	}
+
+	.buttonDiv{
+		padding-left: 70vw;
+	}
+
+	.heightFull{
+		height: 89.8vh;
+	  }
+}
+
+
+/* -----------------------------------------------------------------------------INDEX------------------------------------------------------------------------------ */
+
+#mainOne{
+	min-height: 80vh;
+	height: 94vh;
+	background-image: url(../images/ucl_wallpaper2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.mainText{
+	padding-top: 25vh;
+}
+
+.uclLogo{
+	opacity: 0.5;
+}
+
+.uclLogo:hover{
+	opacity: 1;
+}
+
+
+
+.welcomeButton{
+	border-radius: 2vh;
+	margin-top: 5vh;
+	font-size: 2em;
+	background-color: #762DCF;
+	padding-right: 3vw;
+	padding-left: 3vw;
+	color: white;
+	cursor: pointer;
+}
+
+/* -----------------------------------------------------------------------------Second Page------------------------------------------------------------------------------ */
+
+.secondPage{
+	height: 100vh;
+	background-image: url(../images/secondPage2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.matchBoxBig{
+	border-radius: 2vw;
+	height: 45vh;
+	margin: 5vh;
+	transition: transform .3s;
+}
+
+.matchBoxBig:hover {
+	transform: scale(1.1);
+}
+
+.matchBoxSmall{
+	border-radius: 2vw;
+	height: 30vh;
+	margin: 2vh;
+	transition: transform .3s;
+}
+
+.matchBoxSmall:hover {
+	transform: scale(1.1);
+}
+
+.lfc_bayern{
+	background-image: url(../images/matches/lfc_bayern.jpg);
+
+}
+
+.city_schalke{
+	background-image: url(../images/matches/city_schalke.jpg);
+}
+
+.bvb_spurs{
+	background-image: url(../images/matches/bvb_spurs.jpg);
+}
+
+.atl_juve{
+	background-image: url(../images/matches/atl_juve.jpg);
+}
+
+.psg_utd{
+	background-image: url(../images/matches/psg_utd.jpg);
+}
+
+.lyon_barca{
+	background-image: url(../images/matches/lyon_barca.jpg);
+}
+
+.ajax_rma{
+	background-image: url(../images/matches/ajax_rma.jpg);
+}
+
+.porto_roma{
+	background-image: url(../images/matches/porto_roma.jpg);
+}
+
+.matchesBg{
+	background-size: cover;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+/*----------------------------------- Media query override -------------------------------- */
+
+@media (min-width: 320px) and (max-width: 767.98px) {
+
+	.matchBoxBig{
+		height: 30vh;
+		margin: 3vh;
+	}
+
+	.secondPage{
+		height: 280vh;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 568px) {
+
+	.matchBoxBig{
+		height: 30vh;
+		margin: 3vh;
+	}
+
+	.secondPage{
+		height: 280vh;
+	}
+}
+
+@media (min-width: 700px) and (max-width: 1400px) {
+
+	.matchBoxBig{
+		min-width: 80vw;
+		margin: 4vh;
+	}
+
+	.matchBoxSmall{
+		height: 45vh;
+		min-width: 80vw;
+		margin: 4vh;
+	}
+
+	.secondPage{
+		height: 430vh;
+	}
+}
+
+/* -----------------------------------------------------------------------------Third Page------------------------------------------------------------------------------ */
+
+.thirdPage{
+	height: 100vh;
+	background-color: cyan;
+}

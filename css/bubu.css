@@ -1,0 +1,108 @@
+/* --------------------------------------UTILITIES------------------------------ */
+.remove_padding_left{
+	padding-left: 0px;
+}
+
+.remove_padding_right{
+	padding-right: 0px;
+}
+
+.remove_margin_left{
+	margin-left: 0px;
+}
+
+.remove_margin_right{
+	margin-right: 0px;
+}
+
+.add_margin_1{
+	margin: 1vh;
+}
+
+body{
+  background-image: url(../images/secondPage2.jpg);
+	background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+/* --------------------------------------NAV--------------------------------- */
+
+.logo-img{
+	background-image: url(../images/tackle-logo.png);
+	background-repeat: no-repeat; 
+	background-size: contain;
+}
+
+.bg-darkviolet{
+	background-color: #762DCF;
+}
+
+.navheight{
+	height: 6vh;
+}
+
+/* ----------------------------------------------------BUBU------------------------------------------------ */
+
+.heightFull{
+  height: 93vh;
+}
+
+.question{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.answers {
+  margin-bottom: 20px;
+  text-align: left;
+  display: inline-block;
+}
+.answers label{
+  display: block;
+  margin-bottom: 10px;
+}
+button{
+  font-family: 'Work Sans', sans-serif;
+    font-size: 1em;
+    background-color: #279;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    padding: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+button:hover{
+    background-color: #38a;
+}
+
+.buttons{
+  margin-top: 7vh;;
+}
+
+
+.slide{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.active-slide{
+  opacity: 1;
+  z-index: 2;
+}
+.quiz-container{
+  position: relative;
+  height: 200px;
+  margin-top: 40px;
+}
+
+@media (min-width: 1400px) {
+
+	.heightFull{
+		height: 90.7vh;
+	  }
+}
